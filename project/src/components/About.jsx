@@ -47,7 +47,7 @@ const About = () => {
                   <li className="flex items-center gap-2">
                     <span className="w-20">English</span>
                     <div className="h-2 bg-blue-500/20 rounded-full flex-1">
-                      <div className="h-full w-[90%] bg-blue-500 rounded-full"></div>
+                      <div className="h-full w-[25%] bg-blue-500 rounded-full"></div>
                     </div>
                   </li>
                   <li className="flex items-center gap-2">
@@ -59,7 +59,7 @@ const About = () => {
                   <li className="flex items-center gap-2">
                     <span className="w-20">Hindi</span>
                     <div className="h-2 bg-blue-500/20 rounded-full flex-1">
-                      <div className="h-full w-[95%] bg-blue-500 rounded-full"></div>
+                      <div className="h-full w-[85%] bg-blue-500 rounded-full"></div>
                     </div>
                   </li>
                 </ul>

@@ -28,14 +28,7 @@ const Projects = () => {
       githubLink: '#',
       image: 'https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=800&auto=format&fit=crop'
     },
-    {
-      title: 'Instagram Clone',
-      description: 'A social media platform clone with focus on UI/UX design and core features.',
-      techStack: ['React', 'Firebase', 'Tailwind CSS'],
-      demoLink: '#',
-      githubLink: '#',
-      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop'
-    }
+
   ];
 
   return (
