@@ -61,15 +61,7 @@ const Hero = () => {
         </motion.div>
       </div>
       
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
-          className="text-gray-400"
-        >
-          ↓ Scroll to explore
-        </motion.div>
-      </div>
+
     </section>
   );
 };
