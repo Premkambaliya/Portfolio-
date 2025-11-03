@@ -11,6 +11,13 @@ export default function Certificates() {
       link: "https://res.cloudinary.com/dczue3n9b/image/upload/v1756819435/WhatsApp_Image_2025-09-02_at_18.52.23_25b92c3f_bypi27.jpg",
     },
     {
+      id: "react-js-cert",
+      title: "youngturks25 round-1 achievement certificate",
+      image:
+        "https://res.cloudinary.com/dczue3n9b/image/upload/v1762073597/Screenshot_2025-11-02_142112_hy5ebz.png",
+      link: "https://res.cloudinary.com/dczue3n9b/image/upload/v1762073597/Screenshot_2025-11-02_142112_hy5ebz.png",
+    },
+    {
       id: "c-lang-cert",
       title: "C Language Certification",
       image:
@@ -70,6 +77,12 @@ export default function Certificates() {
       title: "Introduction to the Basics of Azure Certificate ",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1757870198/f8ea1528-5d39-49e4-a566-c8fc7899a1c3.png",
       link: "https://simpli-web.app.link/e/Skg4GN4ZEWb",
+    },
+    {
+      id: "simpli-cert-2",
+      title: "TechHack 2025 Certificate ",
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1762073614/WhatsApp_Image_2025-11-02_at_14.20.26_37c5d1d6_h2srla.jpg",
+      link: "https://res.cloudinary.com/dczue3n9b/image/upload/v1762073614/WhatsApp_Image_2025-11-02_at_14.20.26_37c5d1d6_h2srla.jpg",
     },
   ];
 

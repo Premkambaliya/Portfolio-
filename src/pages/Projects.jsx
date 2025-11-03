@@ -30,6 +30,18 @@ const projects = [
     category: "FullStack",
   },
   {
+    id: "Mutual-Funds",
+    title: "My Mutual Funds",
+    description:
+      " A full-stack mutual funds tracking and management application built with Next.js and MongoDB.",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1760286246/a1099984-ea44-4907-83fe-f5fbd1392855.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/Mutual_Funds",
+    demoLink: "https://my-mutual-funds.vercel.app/",
+    category: "FullStack",
+  },
+  {
     id: "travelling-platform",
     title: "Travelling",
     description:
@@ -41,7 +53,19 @@ const projects = [
     demoLink: "YOUR_TRAVELLING_PROJECT_DEMO_LINK",
     category: "FullStack",
   },
-
+  // Group Project
+  {
+    id: "travelling-platform",
+    title: "College Notes Exchange Platform",
+    description:
+      "A collaborative full-stack platform for college students to share and exchange notes, built with Typescript, Node.js, and Supabase. (Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762165569/e102722c-ab9c-426c-ade1-fe3bbba88e3c.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/TechHack-2025",
+    demoLink: "https://notes-exchange.netlify.app/",
+    category: "Group Project",
+  },
   // 🔥 Frontend Projects
   {
     id: "crunchyroll-clone",
@@ -156,12 +180,30 @@ const projects = [
     category: "Games",
   },
   {
-    id: "Skill-Swap-design",
-    title: "SkillSwap Redesign",
-    description: "A modern UI/UX redesign of the SkillSwap platform in Figma, created for the Odoo Hackathon 2025 Virtual Round.",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1756816534/Screenshot_2025-09-02_180502_ba6aeb.png",
+    id: "anime-world-figma",
+    title: "Anime World Design",
+    description: "A vibrant UI design for an anime streaming platform in Figma",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081078/pemxndt7vrjau3qudwzf.png",
+    year: "2024",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-9&t=yVzUmRSx8AwNhrrV-1",
+    category: "Figma",
+  },
+  {
+    id: "coding-gita",
+    title: "Coding Gita",
+    description: "A clean UI design for a coding education platform in Figma",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081418/mhyff1jnzq1couvvukvu.png",
+    year: "2024",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-5&t=yVzUmRSx8AwNhrrV-1",
+    category: "Figma",
+  },
+  {
+    id: "University-figma",
+    title: "University project",
+    description: " A sleek UI design for a mutual funds tracking app in Figma",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1760286898/Landing_Page_zharii.png",
     year: "2025",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-3&t=yVzUmRSx8AwNhrrV-1",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-7&t=mjSNpMXINLdXFvOi-1",
     category: "Figma",
   },
   {
@@ -183,48 +225,12 @@ const projects = [
     category: "Figma",
   },
   {
-    id: "anime-world-figma",
-    title: "Anime World Design",
-    description: "A vibrant UI design for an anime streaming platform in Figma",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081078/pemxndt7vrjau3qudwzf.png",
-    year: "2024",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-9&t=yVzUmRSx8AwNhrrV-1",
-    category: "Figma",
-  },
-  {
-    id: "ludo-design",
-    title: "Ludo App Design",
-    description: "A playful and intuitive UI design for a Ludo game app in Figma",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png",
-    year: "2023",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-2&t=yVzUmRSx8AwNhrrV-1",
-    category: "Figma",
-  },
-  {
     id: "fast-shopping",
     title: "Fast Shopping",
     description: "A sleek e-commerce UI design for quick shopping in Figma",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081340/i4t8gudt5ttfpjqrbqk9.png",
     year: "2024",
     demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=0-1&t=yVzUmRSx8AwNhrrV-1",
-    category: "Figma",
-  },
-  {
-    id: "coding-gita",
-    title: "Coding Gita",
-    description: "A clean UI design for a coding education platform in Figma",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081418/mhyff1jnzq1couvvukvu.png",
-    year: "2024",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-5&t=yVzUmRSx8AwNhrrV-1",
-    category: "Figma",
-  },
-  {
-    id: "indian-gov-design",
-    title: "Indian Government Websites and Apps",
-    description: "A user-friendly redesign of Indian government digital interfaces in Figma",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081442/mtc7ky2ozbutzazw5lbx.png",
-    year: "2024",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-10&t=yVzUmRSx8AwNhrrV-1",
     category: "Figma",
   },
   {
@@ -245,10 +251,37 @@ const projects = [
     demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-8&t=yVzUmRSx8AwNhrrV-1",
     category: "Figma",
   },
+  {
+    id: "ludo-design",
+    title: "Ludo App Design",
+    description: "A playful and intuitive UI design for a Ludo game app in Figma",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png",
+    year: "2024",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-2&t=yVzUmRSx8AwNhrrV-1",
+    category: "Figma",
+  },
+  {
+    id: "Skill-Swap-design",
+    title: "SkillSwap Redesign",
+    description: "A modern UI/UX redesign of the SkillSwap platform in Figma, created for the Odoo Hackathon 2025 Virtual Round.",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1756816534/Screenshot_2025-09-02_180502_ba6aeb.png",
+    year: "2025",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-3&t=yVzUmRSx8AwNhrrV-1",
+    category: "Figma",
+  },
+  {
+    id: "indian-gov-design",
+    title: "Indian Government Websites and Apps",
+    description: "A user-friendly redesign of Indian government digital interfaces in Figma",
+    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081442/mtc7ky2ozbutzazw5lbx.png",
+    year: "2024",
+    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-10&t=yVzUmRSx8AwNhrrV-1",
+    category: "Figma",
+  },
 ];
 
 export default function Projects() {
-  const categories = ["FullStack", "Frontend", "Games", "Figma"];
+  const categories = ["FullStack","Group Project", "Frontend", "Games", "Figma"];
   const [activeCategory, setActiveCategory] = useState("FullStack");
 
   const containerVariants = {

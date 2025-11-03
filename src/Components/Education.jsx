@@ -8,7 +8,7 @@ export default function Education() {
       degree: 'B.Tech in Computer Science',
       institution: 'CodingGita x Rai University',
       period: '2024 - Present',
-      cgpa: '9.29/10',
+      cgpa: '9.28/10',
       description:
         "Currently pursuing a Bachelor's degree in Computer Science at Rai University, Ahmedabad (Second Year). Exploring core subjects like programming, data structures, and algorithms while building a strong foundation in problem-solving and analytical thinking. Engaging in coursework and projects to enhance my understanding of computer systems and software development.",
     },
