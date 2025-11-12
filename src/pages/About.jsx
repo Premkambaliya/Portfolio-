@@ -55,21 +55,31 @@ export default function AboutPage() {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              My expertise lies in React.js, Next.js, Tailwind CSS, Node.js, and MongoDB. I thrive on solving complex problems and crafting intuitive UI designs that not only look great but also deliver seamless user experiences.
+              My expertise lies in <strong>React.js</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>.
+              I thrive on <strong>solving complex problems</strong> and crafting <strong>intuitive UI designs</strong> that not only look great but also deliver
+              <strong>seamless user experiences</strong>.
             </p>
 
             <p>
-              In 2025, I participated in the **Odoo Hackathon**, where I successfully completed the **Virtual Round** and advanced to the **Main Round in Gandhinagar**. This experience gave me hands-on exposure to real-world problem-solving, teamwork, and building impactful solutions under time constraints.
-            </p>
-            <p>
-              My current focus is on mastering state management, advanced MongoDB queries, and full-stack
-              deployment practices. I also explore UI/UX design, using tools like Figma and Framer
-              to create clean and user-friendly interfaces.
+              In 2025, I participated in the <strong>Odoo Hackathon</strong>, where our team was selected from over
+              <strong>18,000+ registered teams</strong> to advance to the <strong>Main Round in Gandhinagar</strong> after successfully completing the
+              <strong>Virtual Round</strong>. This incredible experience provided me with hands-on exposure to
+              <strong>real-world problem-solving</strong>, <strong>teamwork</strong>, and <strong>building impactful solutions</strong> under time constraints.
             </p>
 
             <p>
-              Beyond coding, I enjoy experimenting with new technologies, contributing to open-source projects, and exploring the latest design trends. Apart from coding, <span className="text-blue-600 font-semibold">I am national player in archery</span>, and I also enjoy playing football, mobile gaming, and listening to music.
+              My current focus is on mastering <strong>state management</strong>, <strong>advanced MongoDB queries</strong>, and
+              <strong> full-stack deployment practices</strong>. I also explore <strong>UI/UX design</strong>, using tools like
+              <strong>Figma</strong> and <strong>Framer</strong> to create <strong>clean</strong> and <strong>user-friendly interfaces</strong>.
             </p>
+
+            <p>
+              Beyond coding, I enjoy <strong>experimenting with new technologies</strong>,
+              and exploring the <strong>latest design trends</strong>. Apart from coding,
+              <span class="text-blue-600 font-semibold">I am a national player in archery</span>, and I also enjoy playing
+              <strong> football</strong>, <strong>mobile gaming</strong>, and <strong>listening music</strong>.
+            </p>
+
           </div>
 
           <PersonalInfo />

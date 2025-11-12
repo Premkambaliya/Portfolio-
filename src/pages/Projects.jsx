@@ -6,27 +6,15 @@ import ProjectCard from "../Components/ProjectCard";
 const projects = [
   // 🔥 FullStack Projects
   {
-    id: "anime-world-fullstack",
-    title: "Anime World Fullstack",
-    description:
-      "A full-stack anime streaming platform built with React, Node.js, and MongoDB",
-    image:
-      "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082459/ovezvrhpyypbxspkohcf.png",
-    year: "2024",
-    githubLink: "https://github.com/Premkambaliya/anime_world",
-    demoLink: "https://anime-world-frontend.vercel.app",
-    category: "FullStack",
-  },
-  {
     id: "learning-platform",
     title: "My Learning Platform",
     description:
-      "An interactive full-stack learning platform for managing courses for developers. (Work ongoing)",
+      "An interactive full-stack learning platform for managing courses for Students and in that add quiz and query solver.",
     image:
       "https://res.cloudinary.com/dczue3n9b/image/upload/v1756816915/Screenshot_2025-09-02_181134_e1yrty.png",
     year: "2025",
-    githubLink: "YOUR_LEARNING_PLATFORM_REPO_LINK",
-    demoLink: "YOUR_LEARNING_PLATFORM_DEMO_LINK",
+    githubLink: "https://github.com/Premkambaliya/My-Learning-Platform",
+    demoLink: "https://mylearning-platform.vercel.app/",
     category: "FullStack",
   },
   {
@@ -49,8 +37,20 @@ const projects = [
     image:
       "https://res.cloudinary.com/dczue3n9b/image/upload/v1756816918/Screenshot_2025-09-02_181039_rjiu5y.png",
     year: "2025",
-    githubLink: "YOUR_TRAVELLING_PROJECT_REPO_LINK",
-    demoLink: "YOUR_TRAVELLING_PROJECT_DEMO_LINK",
+    githubLink: "",
+    demoLink: "",
+    category: "FullStack",
+  },
+  {
+    id: "anime-world-fullstack",
+    title: "Anime World Fullstack",
+    description:
+      "A full-stack anime streaming platform built with React, Node.js, and MongoDB",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082459/ovezvrhpyypbxspkohcf.png",
+    year: "2024",
+    githubLink: "https://github.com/Premkambaliya/anime_world",
+    demoLink: "https://anime-world-frontend.vercel.app",
     category: "FullStack",
   },
   // Group Project
@@ -66,32 +66,96 @@ const projects = [
     demoLink: "https://notes-exchange.netlify.app/",
     category: "Group Project",
   },
+  {
+    id: "ai-mirror-chatbot",
+    title: "Ai Mirror chatbot",
+    description:
+      "AI-Mirror is a student-focused web platform that helps learners explore tech careers, practice with AI-generated quizzes, stay updated on tech news and events, and celebrate achievements — all powered by the Gemini API and managed via an admin panel.",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762971579/eb2ea1ab-0d62-492b-ab3e-c8578f0c2431.png",
+    year: "2025",
+    githubLink: "",
+    demoLink: "https://ai-mirror-chatbot.vercel.app/",
+    category: "Group Project",
+  },
+  {
+    id: "Expense-Management-System",
+    title: "Expense Management System",
+    description:
+      " For Employee User ID : EM003, Password : 123456,Company ID : COMP002 (Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762612006/7ae2a473-c445-4adb-b1c7-c97bd5b64454.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/odooxamalthea",
+    demoLink: "https://expense-manager-ten-lovat.vercel.app/",
+    videoLink:"https://www.youtube.com/watch?v=WPnxH9x_8gY",
+    category: "Group Project",
+  },
+  {
+    id: "Second-Hand-platform",
+    title: "Second Hand Marketplace",
+    description:
+      "A group project to develop a second-hand marketplace platform for buying and selling used items, built with React and Node.js.(Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762875531/7724e5b4-52d5-4298-bd27-f9d5f5043fee.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/Odoo_Hackathon/tree/main",
+    demoLink: "",
+    videoLink:"https://youtu.be/2_RSAnH-9uA?si=6MduB2cYKxkXzrwV",
+    category: "Group Project",
+  },
+  {
+    id: "Rental-managment-system",
+    title: "Rental Managment Platform",
+    description:
+      "A group project to develop a rental management platform for property owners and tenants, built with React and Node.js.(Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762874551/4e8c9022-bb23-4472-9b7d-8509b2c765eb.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/Rental_management/tree/main",
+    demoLink: "",
+    videoLink:"http://youtube.com/watch?v=7GKUQdv_xFU&feature=youtu.be",
+    category: "Group Project",
+  },
+  {
+    id: "Skill-swap-platform",
+    title: "Skill swap Platform",
+    description:
+      "A group project to develop a skill swap platform for users to exchange skills and services, built with React and Node.js.(Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1762874448/c10efbdd-27f4-4c24-9d4c-f5ea921bb746.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/Odoo_Hackathon/tree/main",
+    demoLink: "",
+    videoLink:"https://youtu.be/2zRxmeweEU0?si=esdCTDamf5NnSbqR",
+    category: "Group Project",
+  },
   // 🔥 Frontend Projects
   {
     id: "crunchyroll-clone",
-    title: "Crunchyroll Clone",
+    title: "Crunchyroll Landing Page Redisign",
     description:
       "A frontend clone of Crunchyroll's anime streaming interface using React",
     image:
       "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192398/fbxheyj3vlv5q8hucxbq.png",
-    year: "2023",
+    year: "2024",
     githubLink: "https://github.com/Premkambaliya/Crunchyroll",
     demoLink: "https://crunchyroll-07ll.onrender.com/",
     category: "Frontend",
   },
-{
+ {
     id: "ajio-clone",
-    title: "Ajio Clone",
+    title: "Ajio Landing Page Redesign",
     description: "A frontend clone of Ajio's e-commerce platform built with React",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082381/yn5kb68urodct0wk5jr2.png",
-    year: "2023",
+    year: "2024",
     githubLink: "https://github.com/Premkambaliya/AJIO",
     demoLink: "https://ajio-wqkr.vercel.app/",
     category: "Frontend",
   },
   {
     id: "when-in-city",
-    title: "When in City",
+    title: "When in City Redisign",
     description: "A frontend travel guide app for city exploration using JavaScript and React",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192418/cn1isteqd4suixmn48g9.png",
     year: "2024",
@@ -99,49 +163,11 @@ const projects = [
     demoLink: "https://when-in-city.onrender.com",
     category: "Frontend",
   },
-  {
-    id: "fastack",
-    title: "Fastack",
-    description: "A frontend task management app built with React and Tailwind CSS",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192468/wlju0jqkj9wtisvhple8.png",
-    year: "2023",
-    githubLink: "https://github.com/Premkambaliya/Fastrack",
-    demoLink: "https://fastrack.onrender.com/",
-    category: "Frontend",
-  },
-  {
-    id: "spotify-clone",
-    title: "Spotify Clone",
-    description: "A frontend clone of Spotify's music streaming interface using React",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192500/d853fudjif0sefvpb9s2.png",
-    year: "2024",
-    githubLink: "https://github.com/Premkambaliya/Spotify",
-    demoLink: "https://task-rouge-two.vercel.app/",
-    category: "Frontend",
-  },
-  {
-    id: "youtube-clone",
-    title: "YouTube Clone",
-    description: "A frontend clone of YouTube's video streaming interface using React",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192526/waplkwj60zsfhn5yevq8.png",
-    year: "2024",
-    githubLink: "https://github.com/Premkambaliya/Youtube",
-    demoLink: "https://youtubereact-indol.vercel.app/",
-    category: "Frontend",
-  },
-  {
-    id: "static-sudoku",
-    title: "Static Sudoku",
-    description: "A static Sudoku board UI built with HTML and CSS",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745084161/lmsrcqmfoeh63fv4bhhv.png",
-    year: "2023",
-    githubLink: "https://github.com/Premkambaliya/SUDOKU",
-    demoLink: "https://sudokucg.netlify.app/",
-    category: "Frontend",
-  },
+  //Games Projects
+
   {
     id: "2048-game",
-    title: "2048",
+    title: "2048 Game",
     description: "A classic 2048 number puzzle game built with JavaScript With full responsive",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081736/qsupsr3cdbivmk3iyagt.png",
     year: "2024",
@@ -154,14 +180,14 @@ const projects = [
     title: "Snake Game",
     description: "A retro Snake game developed using JavaScript and HTML5 Canvas",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192552/mhnscynznpyvbgllqjhv.png",
-    year: "2023",
+    year: "2024",
     githubLink: "https://github.com/Premkambaliya/Snack-Game",
     demoLink: "https://snack-game-swart.vercel.app/",
     category: "Games",
   },
   {
     id: "chess-game",
-    title: "Chess",
+    title: "Chess Game",
     description: "An interactive Chess game play with your friend ",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192579/qi3rnttgwfe5jz0fv9wi.png",
     year: "2024",
@@ -171,14 +197,17 @@ const projects = [
   },
   {
     id: "rock-paper-scissor-game",
-    title: "Rock Paper Scissor",
+    title: "Rock Paper Scissor Game",
     description: "A fun Rock-Paper-Scissor game built with React",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1756815140/Screenshot_2025-09-02_174142_fk9cjj.png",
     year: "2024",
-    githubLink: "https://github.com/Premkambaliya/Chess-Game",
-    demoLink: "https://chess-game-mu-three.vercel.app/",
+    githubLink: "https://github.com/Premkambaliya/Rock-Paper-Scissors",
+    demoLink: "rock-paper-scissors-red-seven.vercel.app",
     category: "Games",
   },
+
+  // 🔥 Figma Designs
+
   {
     id: "anime-world-figma",
     title: "Anime World Design",
@@ -234,15 +263,6 @@ const projects = [
     category: "Figma",
   },
   {
-    id: "scanner-design",
-    title: "Scanner App Design",
-    description: "A minimalist UI design for a document scanner app in Figma",
-    image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081480/qha7jhhskalabcipm5dy.png",
-    year: "2024",
-    demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-5&t=yVzUmRSx8AwNhrrV-1",
-    category: "Figma",
-  },
-  {
     id: "roadhelp-design",
     title: "RoadHelp",
     description: "A UI design for a roadside assistance app in Figma",
@@ -281,8 +301,8 @@ const projects = [
 ];
 
 export default function Projects() {
-  const categories = ["FullStack","Group Project", "Frontend", "Games", "Figma"];
-  const [activeCategory, setActiveCategory] = useState("FullStack");
+  const categories = ["All", "FullStack", "Group Project", "Frontend", "Games", "Figma"];
+  const [activeCategory, setActiveCategory] = useState("All");
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -297,9 +317,10 @@ export default function Projects() {
     visible: { y: 0, opacity: 1 },
   };
 
-  const filteredProjects = projects.filter(
-    (project) => project.category === activeCategory
-  );
+  const filteredProjects =
+    activeCategory === "All"
+      ? projects
+      : projects.filter((project) => project.category === activeCategory);
 
   return (
     <div className="px-6 md:px-16 lg:px-24 py-16 bg-gray-50 min-h-screen">
@@ -347,6 +368,7 @@ export default function Projects() {
                 year={project.year}
                 githubLink={project.githubLink}
                 demoLink={project.demoLink}
+                videoLink={project.videoLink} // 🎥 added
               />
             </motion.div>
           ))}

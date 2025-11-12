@@ -1,25 +1,71 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import SkillCategory from '../Components/SkillCategory';
 
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "JavaScript", "Tailwind CSS", "Next.js","HTML","CSS"]
+    skills: [
+      { name: "React", color: "bg-[#B4E5F9]", textColor: "text-gray-800" },
+      { name: "JavaScript", color: "bg-[#FDF6B2]", textColor: "text-gray-800" },
+      { name: "Tailwind CSS", color: "bg-[#A5F3FC]", textColor: "text-gray-800" },
+      { name: "Next.js", color: "bg-gray-800", textColor: "text-white" },
+      { name: "HTML5", color: "bg-[#FDC4B0]", textColor: "text-gray-800" },
+      { name: "CSS3", color: "bg-[#A3C9E2]", textColor: "text-gray-800" }
+    ]
   },
   {
     title: "Backend", 
-    skills: ["Node.js", "Express.js","REST APIs"]
+    skills: [
+      { name: "Node.js", color: "bg-[#B8E6C0]", textColor: "text-gray-800" },
+      { name: "Express.js", color: "bg-gray-700", textColor: "text-white" },
+      { name: "REST APIs", color: "bg-[#B2DFDB]", textColor: "text-gray-800" }
+    ]
   },
   {
     title: "Database",
-    skills: ["MongoDB", "MySQL", "Supabase"]
+    skills: [
+      { name: "MongoDB", color: "bg-[#C8E6C9]", textColor: "text-gray-800" },
+      { name: "MySQL", color: "bg-[#BBDEFB]", textColor: "text-gray-800" },
+      { name: "Supabase", color: "bg-[#B9F6CA]", textColor: "text-gray-800" }
+    ]
   },
   {
     title: "Tools & Others",
-    skills: ["Git","GitHUb", "Figma","Prototype","Framer","Postman","Render","Netlify","Vercel" ]
+    skills: [
+      { name: "Git", color: "bg-[#FFCCBC]", textColor: "text-gray-800" },
+      { name: "GitHub", color: "bg-gray-700", textColor: "text-white" },
+      { name: "Figma", color: "bg-[#FFB3BA]", textColor: "text-gray-800" },
+      { name: "Prototype", color: "bg-[#DDD6FE]", textColor: "text-gray-800" },
+      { name: "Framer", color: "bg-[#BFDBFE]", textColor: "text-gray-800" },
+      { name: "Postman", color: "bg-[#FFCCBC]", textColor: "text-gray-800" },
+      { name: "Render", color: "bg-[#B2F5EA]", textColor: "text-gray-800" },
+      { name: "Netlify", color: "bg-[#99F6E4]", textColor: "text-gray-800" },
+      { name: "Vercel", color: "bg-gray-800", textColor: "text-white" }
+    ]
   }
 ];
+
+function SkillCategory({ category }) {
+  return (
+    <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-blue-600 pb-2 inline-block">
+        {category.title}
+      </h2>
+      <div className="flex flex-wrap gap-3 mt-6">
+        {category.skills.map((skill) => (
+          <motion.span
+            key={skill.name}
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.95 }}
+            className={`${skill.color} ${skill.textColor} px-4 py-2 rounded-lg font-medium shadow-md hover:shadow-lg transition-all duration-200`}
+          >
+            {skill.name}
+          </motion.span>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default function SkillsPage() {
   const containerVariants = {

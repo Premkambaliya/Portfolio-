@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useLocation, Routes, Route } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
@@ -100,9 +100,8 @@ export default function App() {
       
       <Navbar />
       
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait" initial={false}>
         <motion.main
-          key={location.pathname}
           variants={pageVariants}
           initial="initial"
           animate="in"
@@ -110,7 +109,7 @@ export default function App() {
           transition={pageTransition}
           className="min-h-screen pt-20"
         >
-          <Routes>
+          <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
