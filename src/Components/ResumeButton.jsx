@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 
 export default function ResumeButton() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1aLfh6c9yntcjh1T_37UnxDFBdFY0OMbS/view?usp=sharing";
+    "https://drive.google.com/file/d/1i1Yns3WAI84MF0bMGN5t44J9LUia55IP/view?usp=sharing";
 
   const handleDownload = () => {
     // Opens resume in a new tab
