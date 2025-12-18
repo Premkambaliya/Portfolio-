@@ -79,6 +79,18 @@ const projects = [
     category: "Group Project",
   },
   {
+    id: "Stock-master",
+    title: "Stock Master",
+    description:
+      " A group project to develop a stock market analysis and trading platform, built with React and Node.js.(Group Project)",
+    image:
+      "https://res.cloudinary.com/dczue3n9b/image/upload/v1765868948/Screenshot_2025-12-16_123547_dthcdp.png",
+    year: "2025",
+    githubLink: "https://github.com/Premkambaliya/StockMaster",
+    videoLink:"https://youtu.be/uLCSSXYtILE?si=A22--wUrkpnTEVca",
+    category: "Group Project",
+  },
+  {
     id: "Expense-Management-System",
     title: "Expense Management System",
     description:
@@ -202,7 +214,7 @@ const projects = [
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1756815140/Screenshot_2025-09-02_174142_fk9cjj.png",
     year: "2024",
     githubLink: "https://github.com/Premkambaliya/Rock-Paper-Scissors",
-    demoLink: "rock-paper-scissors-red-seven.vercel.app",
+    demoLink: "https://rock-paper-scissors-red-seven.vercel.app/",
     category: "Games",
   },
 
@@ -228,7 +240,7 @@ const projects = [
   },
   {
     id: "University-figma",
-    title: "University project",
+    title: "Ai-mirror Cheatboat project",
     description: " A sleek UI design for a mutual funds tracking app in Figma",
     image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1760286898/Landing_Page_zharii.png",
     year: "2025",
